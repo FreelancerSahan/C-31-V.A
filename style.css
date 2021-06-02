@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #F2F2F2;
+    --secondary: #070606;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-div {
+    width: 1200px;
+
+}
+
+i {
+    transition: .5s;
+}
+
+i:hover {
+    transform: scale(1.2);
+    color: #ec3f3a;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 63%;
+    color: #fff;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.first-nav {
+    color: red !important;
+}
+
+.nav-item:hover a {
+    color: #ec3f3a !important;
+}
+
+/* Slider Section */
+.slider-section {
+    background: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_title_bg.jpg);
+    padding: 150px;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-section::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -300%;
+    left: 0;
+    z-index: -1;
+}
+
+.slider-caption h4 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.slider-caption h1 {
+    text-align: center;
+    font-size: 5rem;
+    width: 100%;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+}
+
+.button-1 {
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.slider-caption h4 {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    top: -20%;
+    left: 0;
+}
+
+.btn-2 {
+    font-size: 1.2rem;
+
+}
+
+.title h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.slider-caption .form-control {
+    padding: 18px 20px;
+}
+
+.section-2 {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_post_bg.jpg);
+    padding: 150px 0;
+
+}
+
+.title-2 h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.title-2 {
+    padding-right: 60px;
+}
+
+.title-2 p {
+    line-height: 2rem;
+}
+
+.head-title {
+    color: #d0bd98;
+    font-size: 7rem;
+}
+
+.section-3 {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_blackwood_bg.jpg);
+}
+
+.section-3 img {
+    width: 40%;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.section-3 h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.section-3 h2 {
+    color: #d4c5ab;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+
+.section-4 {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_post_bg.jpg);
+}
+
+.title-3 .tit {
+    padding-top: 100px;
+}
+
+.title-3 h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 3.1rem;
+    padding: 15px 0;
+}
+
+.head-title1 {
+    color: #d0bd98;
+    font-size: 7rem;
+}
+
+.title-3 p {
+    line-height: 2rem;
+    font-size: 23px;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.sm {
+    color: #a98c53;
+}
+
+.title-4 h2 {
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.title-4 h1 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #d0bc97;
+}
+
+.title-4 h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 55px;
+}
+
+.title-4 h6 {
+    font-size: 15px;
+    margin: 20px 0;
+    color: #d0bc97 !important;
+}
+
+.title-4 p {
+    color: #a5a5a5;
+}
+
+.img-1 img {
+    width: 70%;
+    padding-top: 300px;
+    margin-left: 20px;
+}
+
+.section-5 {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_blackwood_bg.jpg);
+    text-align: center;
+}
+
+.img3 img {
+    width: 5%;
+    padding-bottom: 60px;
+}
+
+.section-5 h2 {
+    color: #a98c53;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+
+.section-5 h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.img4 img {
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.section-6 h3 {
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.section-6 p {
+    color: #9a9a9a;
+}
+
+.section-6 {
+    padding-bottom: 120px;
+}
+
+.section-6 .item-2 {
+    border: 1px solid #5e5f60;
+    padding: 20px;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+
+.section-6 {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_blackwood_bg.jpg);
+}
+
+.menu-section {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_blackwood_bg.jpg);
+}
+
+.menu-section h3 {
+    color: #a98c53;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.menu-section h4 {
+    color: #a98c53;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.menu-section h1 {
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 6rem;
+}
+
+.menu-section p {
+    color: #898989;
+    padding: 20px 0;
+}
+
+.menu-section ul {
+    padding-bottom: 100px;
+}
+
+.menu-section ul li {
+    color: #898989;
+    line-height: 30px;
+
+}
+
+.item-div {
+    width: 1280px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.item-div .box {
+    position: relative;
+    width: 300px;
+    height: auto;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.item-div .box .imgBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.item-div .box .imgBox img {
+    max-width: 100%;
+    transition: 1s;
+}
+
+.item-div .box:hover .imgBox img {
+    transform: scale(1.2);
+}
+
+.item-div .box .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(0);
+    transition: .5s;
+}
+
+.item-div .box:hover .details {
+    transform: scaleY(1);
+}
+
+.item-div .box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.item-div .box .details .content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.item-div .box .details .content p {
+    margin: 10px 0 0;
+
+}
+
+.service-section {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_service_bg.jpg);
+}
+
+.single-service h3 {
+    font-weight: 300;
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    top: 90px;
+    transition: all 700ms cubic-bezier(0.65, -0.50, 0.255, 1.50) 0s;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.single-service:hover {
+    background: #2d2d2d;
+
+}
+
+.single-service .symbol i {
+    color: #fff;
+
+}
+
+.single-service:hover .symbol {
+    top: -10px;
+    color: #20639b;
+}
+
+.single-service:hover h3 {
+    color: #f75b43;
+    top: 0;
+    margin-bottom: 15px;
+}
+
+.single-service p {
+    opacity: 0;
+    transition: all 700ms cubic-bezier(0.65, -0.50, 0.255, 1.50) 0s;
+
+}
+
+.single-service:hover p {
+    color: #fff;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.single-service {
+    background: #f6f3f1;
+    padding: 20px;
+    transition: all 0.5s ease 0s;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.symbol {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    transition: all 0.4s ease 0s;
+    width: 60px;
+    background: #f75b43;
+    border-radius: 50px;
+    color: #333;
+    display: inline-block;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+.service-section .sub-title h2 {
+    font-weight: 300;
+    font-size: 25px;
+    color: #a98c53;
+
+    padding-bottom: 15px;
+}
+
+.btn-4 {
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.section-7 {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_post_bg.jpg);
+
+}
+
+.sub-title h6 {
+    font-weight: 300;
+    font-size: 25px;
+    color: #a98c53;
+    padding-top: 120px;
+    padding-bottom: 15px;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+.sub-title h1 {
+    font-weight: 300;
+    font-size: 45px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+.sub-title img {
+    width: 10%;
+    padding-bottom: 150px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.section-7 .card li {
+    line-height: 40px;
+
+}
+
+.section-7 .card button:hover {
+    color: #000;
+    background: #a98c53;
+    outline: none;
+
+}
+
+.btn-9 {
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.section-7 .card-group {
+    padding-bottom: 150px;
+}
+
+
+.about-section .sub-title h2 {
+    font-weight: 300;
+    font-size: 45px;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+.about-section .carousel-caption h4 {
+    font-weight: 300;
+    font-size: 25px;
+    color: #a98c53;
+
+
+}
+
+.about-section .carousel-caption img {
+    width: 10%;
+}
+
+.about-section .cas-img strong {
+    color: #a98c53;
+}
+
+.about-section .cas-img h5 {
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.about-section .cas-img i {
+    color: #a98c53;
+    font-size: 50px;
+}
+
+.blog-section {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_post_bg.jpg);
+}
+
+.blog-section .fas {
+    font-size: 40px;
+    color: #f75b43;
+}
+
+.contact-info {
+    background-image: url(https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_contact_information.jpg);
+}
+
+
+.services h1 span {
+    color: var(--primary);
+    font-weight: 400;
+}
+
+.services h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+}
+
+section.services .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    text-align: center;
+}
+
+.card-wrapper .card i {
+    background: #ec3f3a;
+    padding: 20px;
+    font-size: 25px;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    color: #fff;
+    border-radius: 50px;
+    transform: translateX(-50%);
+}
+
+.card-wrapper .card {
+    background: var(--dark);
+    padding: 3rem 2rem;
+    position: relative;
+}
+
+.nav-item i {
+    padding-top: 11px;
+}
+
+section.services .card-wrapper .card {
+    background: var(--pure);
+    padding: 3rem 2rem;
+    transition: all .5s ease;
+}
+
+section.services .card-wrapper .card h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+section.services .card-wrapper .card p {
+    line-height: 1.6;
+    color: var(--ternary);
+    font-family: 'Lato', sans-serif;
+}
+
+section.services .card-wrapper .card:hover {
+    background: var(--dark);
+
+}
+
+section.services .card-wrapper .card:hover h2,
+section.services .card-wrapper .card:hover p {
+    color: var(--pure);
+}
+
+.message-section {
+    background-image: url(https://codex-themes.com/thegem/sites/gem-restaurant/wp-content/uploads/2018/11/restaurant_blackwood_bg.jpg);
+}
+
+.message-section input {
+    border: 1px solid #626262 !important;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.message-section textarea {
+    border: 1px solid #626262 !important;
+    color: #989898;
+}
+
+.message-section .btn-4 img {
+    width: 40%;
+}
+
+.message-section i {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.img9 img {
+    width: 40%;
+}
+
+.message-section i {
+    color: #989898;
+}
+
+footer {
+    background: #191919;
+    padding: 30px 0;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color: red !important;
+}
+
+footer p {
+    color: #989898;
+}
+
+footer i {
+    color: #989898;
+    font-size: 20px;
+    margin-left: 10px;
+}
